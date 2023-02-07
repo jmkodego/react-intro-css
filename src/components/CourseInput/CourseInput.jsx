@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../UI/Button/Button";
 import "./CourseInput.css";
 
 const CourseInput = (props) => {
@@ -32,9 +33,10 @@ const CourseInput = (props) => {
           value={enteredValue}
         />
       </div>
-      <button type="submit" className="button">
+      {/* <button type="submit" className="button">
         Add Goal
-      </button>
+      </button> */}
+      <Button type="submit">Add Goal</Button>
     </form>
   );
 };
